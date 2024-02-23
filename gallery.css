@@ -93,6 +93,14 @@ font-size: 2rem;
     gap:2rem;
     margin-bottom: 2rem;
 }
+.gallery img
+{
+    transition: all 1s;
+}
+.gallery img:hover
+{
+    transform: scale(1.1);
+}
 /* footer */
 footer{
     background-color: #847626;
