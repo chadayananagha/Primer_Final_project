@@ -6,8 +6,12 @@
 }
 /*body*/
 body{
-    background: rgb(111,94,14);
-    background: linear-gradient(90deg, rgba(111,94,14,1) 0%, rgba(38,128,132,1) 50%, rgba(125,212,176,1) 69%);
+    /* background: rgb(238,174,203);
+    background: radial-gradient(circle, rgba(238,174,203,1) 0%, rgba(148,163,233,1) 100%); */
+    
+background: rgb(111,94,14);
+background: linear-gradient(90deg, rgba(111,94,14,1) 0%, rgba(38,128,132,1) 50%, rgba(125,212,176,1) 69%);
+
 }
 /* header */
 header{
@@ -54,7 +58,6 @@ main{
 .left li{
     padding-bottom: 5rem;
 }
-
 .right
 {
     margin-top: 4rem;
@@ -68,21 +71,42 @@ main{
 }
 .right h1
 {
-    font-size: 3rem;
     color:bisque;
-    padding-bottom: 2rem;
+    font-size:3rem;
+    /* padding-bottom: 1rem; */
 }
 .right h2
 {
-    padding-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: antiquewhite;
 }
 .right p{
     padding-bottom: 1.5rem;
+    color: aliceblue;
 }
+.para
+{
+    color: antiquewhite;
+    font-size: 0.8em;
+}
+.right h3{
+    padding-bottom: 2rem;
+    color: antiquewhite;
+}
+.right ul a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+
+}
+.right ul a:hover{
+    text-decoration: underline;
+} 
 .contact h2
 {
-    color: bisque;
 padding-bottom: 3rem;
+color: bisque;
 font-size: 2rem;
 }
 .contact p{

@@ -6,8 +6,12 @@
 }
 /*body*/
 body{
-    background: rgb(111,94,14);
-    background: linear-gradient(90deg, rgba(111,94,14,1) 0%, rgba(38,128,132,1) 50%, rgba(125,212,176,1) 69%);
+    /* background: rgb(238,174,203);
+    background: radial-gradient(circle, rgba(238,174,203,1) 0%, rgba(148,163,233,1) 100%); */
+    
+background: rgb(111,94,14);
+background: linear-gradient(90deg, rgba(111,94,14,1) 0%, rgba(38,128,132,1) 50%, rgba(125,212,176,1) 69%);
+
 }
 /* header */
 header{
@@ -68,21 +72,23 @@ main{
 }
 .right h1
 {
-    font-size: 3rem;
     color:bisque;
+    font-size:3rem;
     padding-bottom: 2rem;
-}
-.right h2
-{
-    padding-top: 3rem;
 }
 .right p{
     padding-bottom: 1.5rem;
+    color:aliceblue;
+}
+.contact
+{
+    margin-bottom: 3rem;
 }
 .contact h2
 {
-    color: bisque;
 padding-bottom: 3rem;
+padding-top: 7rem;
+color: bisque;
 font-size: 2rem;
 }
 .contact p{
